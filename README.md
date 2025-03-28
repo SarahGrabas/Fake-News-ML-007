@@ -34,7 +34,7 @@ Each Jyputer Notebook is build so it can be run from top to buttom unless else i
 - SVM.ipynb
 
 
-### Notebooks for extra visualisation and analysis
+### Notebooks for extra visualisation, analysis and cross-domain performance
 - Graphs_Document.ipynb
 - Liar_Converter.ipynb
 - Evaluation.ipynb
@@ -61,7 +61,7 @@ Before we split we remove all non-english articles and divide the articles into 
 ## Cleaning_File.ipynb
 This jupyter notebook contains the cleaning process of all datasets (training, validation and test set), the scraped articles from BBC form assignment 2 and the liar dataset.
 The cleaning include cleaning and stemming. 
-When running the cleaning file, the string calculations are marked as comments, because it completely eats ups ones RAM, and therefore we do not recommend running the code. We have run it when necessary and restarted the kernel, since it takes too much processessing power.
+When running the cleaning file, the string calculations are marked as comments, because it completely eats ups ones RAM, and therefore we do not recommend running the code. We have run it when necessary and restarted the kernel, since it takes too much RAM.
 
 
 ### Modules
@@ -71,7 +71,7 @@ When running the cleaning file, the string calculations are marked as comments, 
 - nltk.corpus - stopwords
 - nltk.stem - PorterStemmer
 - cleantext - clean 
-- collections - Coutner
+- collections - Counter
 - pandarallel - pandarallel
 
 
