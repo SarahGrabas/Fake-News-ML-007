@@ -62,6 +62,9 @@ Before we split we remove all non-english articles and divide the articles into 
 ## Cleaning_File.ipynb
 This jupyter notebook contains the cleaning process of all datasets (training, validation and test set), the scraped articles from BBC form assignment 2 and the liar dataset.
 The cleaning include cleaning and stemming. 
+When running the cleaning file, the string calculation 
+
+The reason we have marked the above code as a comment, is because it completely eats ups ones RAM, and therefore we do not recommend running the code. We have run it when necessary and restarted the kernel, since it takes too much processessing power.
 
 
 ### Modules
