@@ -169,7 +169,6 @@ This notebook contains different observations displayed in graphs such as:
 - Average article length by type
 - Correlation between author presence and category (not graph).
 
-
 ### Modules
 - pandas 
 - sklearn.model_selection - train_test_split
@@ -184,12 +183,22 @@ This notebook contains different observations displayed in graphs such as:
 - Observations displayed in graphs which is used for reflection in the rapport.
 
 ## Evaluation.ipynb
+This notebook contains observations of the differences between the performance of the test set and the liar set.
 
 ### Modules
+- pandas 
+- nltk - bigrams
+- nltk.tokenize - word_tokenize
+- collections - Counter
+- sklearn.feature_extraction.text - TfidfVectorizer
 
 ### Input:
+- liar_cleaned.csv
+- full_test_cleaned.csv
 
 ### Output:
+- Observations of the differences between the performance of the test set and the liar set, which is used for reflection in the rapport.
+
 
 
 
