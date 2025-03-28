@@ -1,18 +1,6 @@
 # Fake-News-ML-007
 This is our exam project for GDS. Please read the README as the first thing.
 
-
-# Fake-News
-Vores eksamensprojekt... try not to fuck it up
-
-hvis i vil change lidt i den her kan i skrive:
-notepad README.md (windows)
-nano README.md (mac)
-
-Husk at commit tho
-
-test
-
 ## Goal of the project
 The goal of the project is to build and compare fake news detection models. 
 
