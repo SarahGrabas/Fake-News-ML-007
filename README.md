@@ -159,10 +159,13 @@ This notebook converts the liar data set, train.tsv, to a csv-file and divides t
 - liar_train.csv
 
 ## Graphs_Document.ipynb
-
-correlation between the length of articles and their classification under the broad category label.
-GRAF WITH THE 10.000 MOST OCCURING WORDS
-This graph displays the frequency of the top 50 most common words found in "content" column from the large article-corpus.
+This notebook contains different observations displayed in graphs such as:
+- Correlation between the length of articles and their classification under the broad category label.
+- 10.000 most occuring words
+- The frequency of the top 50 most common words found in "content" column from the large article-corpus.
+- Distribution of article lengths by type
+- Average article length by type
+- Correlation between author presence and category (not graph).
 
 
 ### Modules
@@ -176,6 +179,7 @@ This graph displays the frequency of the top 50 most common words found in "cont
 - full_train_cleaned.csv
 
 ### Output:
+- Observations displayed in graphs which is used for reflection in the rapport.
 
 ## Evaluation.ipynb
 
