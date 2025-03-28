@@ -8,14 +8,21 @@ The goal of the project is to build and compare fake news detection models.
 ## Files in the project
 The project consists of:
 - A report of our findings
-- Multiple Jyputer Notebooks.
+- Multiple Jyputer Notebooks:
   - Cleaning_File.ipynb
   - CSV_split.ipynb
   - Graphs.ipynb
   - LengthCorr.ipynb
-  - Liardataset.ipynb
+  - Liar_Converter.ipynb
   - LogisticReg.ipynb
   - SVM.ipynb
+- CSV and TSV file to be run in the Jupter Notebook files:
+  - train.tsv
+  - BBC_broad_content.csv
+  - news_sample.csv (This file is not used)
+
+##Important before running any code
+- The 995,000_rows.csv file has not been uploaded to github, therefore the user needs to downloads this file, as it is used when running the CSV_split.ipynb file.
 
 Each Jyputer Notebook takes one or more of the datasets, and we will make sure to explain in depth, what the input and output of each file is. 
 
@@ -23,9 +30,8 @@ Below is a step by step guide for how we executed our code.
 
 
 ## Chronological order of how our files should be run
-
-- Cleaning_File.ipynb
 - CSV_split.ipynb
+- Cleaning_File.ipynb
 - LogisticReg.ipynb
 - SVM.ipynb
 
@@ -33,7 +39,7 @@ Below is a step by step guide for how we executed our code.
 ### Notebooks for extra visualisation and analysis
 - Graphs.ipynb
 - LengthCorr.ipynb
-- liardataset.ipynb
+- Liar_Converter.ipynb
 
 
 ## Cleaning_File.ipynb
