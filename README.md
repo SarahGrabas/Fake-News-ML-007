@@ -12,7 +12,6 @@ The project consists of:
   - Cleaning_File.ipynb
   - CSV_split.ipynb
   - Graphs.ipynb
-  - LengthCorr.ipynb
   - Liar_Converter.ipynb
   - LogisticReg.ipynb
   - SVM.ipynb
@@ -24,9 +23,7 @@ The project consists of:
 ##Important before running any code
 - The 995,000_rows.csv file has not been uploaded to github, therefore the user needs to downloads this file, as it is used when running the CSV_split.ipynb file.
 
-Each Jyputer Notebook takes one or more of the datasets, and we will make sure to explain in depth, what the input and output of each file is. 
-
-Below is a step by step guide for how we executed our code.
+Each Jyputer Notebook is build so it can be run from top to buttom unless else is mention, then will make sure that it is explained how the file should be run and what the input and output of each file is. 
 
 
 ## Chronological order of how our files should be run
@@ -62,9 +59,7 @@ Before we split we remove all non-english articles and divide the articles into 
 ## Cleaning_File.ipynb
 This jupyter notebook contains the cleaning process of all datasets (training, validation and test set), the scraped articles from BBC form assignment 2 and the liar dataset.
 The cleaning include cleaning and stemming. 
-When running the cleaning file, the string calculation 
-
-The reason we have marked the above code as a comment, is because it completely eats ups ones RAM, and therefore we do not recommend running the code. We have run it when necessary and restarted the kernel, since it takes too much processessing power.
+When running the cleaning file, the string calculations are marked as comments, because it completely eats ups ones RAM, and therefore we do not recommend running the code. We have run it when necessary and restarted the kernel, since it takes too much processessing power.
 
 
 ### Modules
