@@ -11,7 +11,7 @@ The project consists of:
 - Multiple Jyputer Notebooks:
   - Cleaning_File.ipynb
   - CSV_split.ipynb
-  - Graphs.ipynb
+  - Graphs_Document.ipynb
   - Liar_Converter.ipynb
   - LogisticReg.ipynb
   - SVM.ipynb
@@ -20,7 +20,7 @@ The project consists of:
   - BBC_broad_content.csv
   - news_sample.csv (This file is not used)
 
-##Important before running any code
+## Important before running any code
 - The 995,000_rows.csv file has not been uploaded to github, therefore the user needs to downloads this file, as it is used when running the CSV_split.ipynb file.
 
 Each Jyputer Notebook is build so it can be run from top to buttom unless else is mention, then will make sure that it is explained how the file should be run and what the input and output of each file is. 
@@ -34,7 +34,7 @@ Each Jyputer Notebook is build so it can be run from top to buttom unless else i
 
 
 ### Notebooks for extra visualisation and analysis
-- Graphs.ipynb
+- Graphs_Document.ipynb
 - Liar_Converter.ipynb
 
 ## CSV_split.ipynb
@@ -144,9 +144,46 @@ This notebook perform Support Vector Machine model, SGDClassifier, on the datase
     - Test set
     - Liar data
 - Evaluation of the model
-  
-  
-  
+
+## Liar_Converter.ipynb
+This notebook converts the liar data set, train.tsv, to a csv-file and divides the articles into a broad category of "Fake News" and "Reliable". This is the file that should be run before cleaning the liar dataset.
+
+### Modules
+- pandas
+- re
+
+### Input:
+- train.tsv
+
+### Output:
+- liar_train.csv
+
+## Graphs_Document.ipynb
+
+correlation between the length of articles and their classification under the broad category label.
+GRAF WITH THE 10.000 MOST OCCURING WORDS
+This graph displays the frequency of the top 50 most common words found in "content" column from the large article-corpus.
+
+
+### Modules
+- pandas 
+- sklearn.model_selection - train_test_split
+- seaborn - sns
+- matplotlib.pyplot - plt
+- collections - Counter
+
+### Input:
+- full_train_cleaned.csv
+
+### Output:
+
+## Evaluation.ipynb
+
+### Modules
+
+### Input:
+
+### Output:
 
 
 
