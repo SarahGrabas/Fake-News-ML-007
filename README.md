@@ -12,6 +12,7 @@ The project consists of:
   - Cleaning_File.ipynb
   - CSV_split.ipynb
   - Graphs_Document.ipynb
+  - Evaluation.ipynb
   - Liar_Converter.ipynb
   - LogisticReg.ipynb
   - SVM.ipynb
@@ -36,6 +37,7 @@ Each Jyputer Notebook is build so it can be run from top to buttom unless else i
 ### Notebooks for extra visualisation and analysis
 - Graphs_Document.ipynb
 - Liar_Converter.ipynb
+- Evaluation.ipynb
 
 ## CSV_split.ipynb
 Purpose is to remove all non-english articles from the dataset and divide the large corpus into a training set(80%), validation set(10%) and a test set(10%). 
